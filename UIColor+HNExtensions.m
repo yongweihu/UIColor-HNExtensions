@@ -25,6 +25,8 @@
 
 #import "UIColor+HNExtensions.h"
 
+#import <CommonCrypto/CommonDigest.h>
+
 // Useful macro for clamping a value between MIN and MAX
 #define CLAMP(x, min, max) MIN(max, MAX(min, x))
 
